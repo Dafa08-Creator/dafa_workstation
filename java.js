@@ -16,9 +16,9 @@ function tentukanPemenang(pilihanPemain, pilihanKomputer) {
 	if (pilihanPemain === pilihanKomputer) {
 		return 'Seri!';
 	} else if (
-		(pilihanPemain === 'gunting' && pilihanKomputer === 'kertas') ||
-		(pilihanPemain === 'batu' && pilihanKomputer === 'gunting') ||
-		(pilihanPemain === 'kertas' && pilihanKomputer === 'batu') 
+		(pilihanPemain === 'Gunting' && pilihanKomputer === 'kertas') ||
+		(pilihanPemain === 'Batu' && pilihanKomputer === 'gunting') ||
+		(pilihanPemain === 'Kertas' && pilihanKomputer === 'batu') 
 	) {
 		return 'Menangnya Kau!';
 	} else {
