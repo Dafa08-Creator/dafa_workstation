@@ -1,7 +1,7 @@
 let putaran = 0;
 
 function mainkanGame(pilihanPemain) {
-	const pilihan = ['gunting', 'batu', 'kertas'];
+	const pilihan = ['Gunting', 'Batu', 'Kertas'];
 	const pilihanKomputer = pilihan[Math.floor(Math.random() * pilihan.length)];
 
 	document.getElementById('pilihan-pemain').textContent = `Pilihan Kamu: ${pilihanPemain}`;
