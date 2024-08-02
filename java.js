@@ -16,13 +16,13 @@ function tentukanPemenang(pilihanPemain, pilihanKomputer) {
 	if (pilihanPemain === pilihanKomputer) {
 		return 'Seri!';
 	} else if (
-		(pilihanPemain === 'Gunting' && pilihanKomputer === 'kertas') ||
-		(pilihanPemain === 'Batu' && pilihanKomputer === 'gunting') ||
-		(pilihanPemain === 'Kertas' && pilihanKomputer === 'batu') 
+		(pilihanPemain === 'Gunting' && pilihanKomputer === 'Kertas') ||
+		(pilihanPemain === 'Batu' && pilihanKomputer === 'Gunting') ||
+		(pilihanPemain === 'Kertas' && pilihanKomputer === 'Batu') 
 	) {
-		return 'Menangnya Kau!';
+		return 'Menangnya Kau !';
 	} else {
-		return 'Kalahnya Kau!';
+		return 'Kalahnya Kau !';
 	}
 }
 
