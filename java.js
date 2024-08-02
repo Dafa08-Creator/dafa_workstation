@@ -20,9 +20,9 @@ function tentukanPemenang(pilihanPemain, pilihanKomputer) {
 		(pilihanPemain === 'batu' && pilihanKomputer === 'gunting') ||
 		(pilihanPemain === 'kertas' && pilihanKomputer === 'batu') 
 	) {
-		return 'Kamu menang!';
+		return 'Menangnya Kau!';
 	} else {
-		return 'Kamu Kalah!';
+		return 'Kalahnya Kau!';
 	}
 }
 
